@@ -1,1 +1,51 @@
 
+# ==================================
+# DataScout-AI - Project Configuration
+# ==================================
+
+# Model
+model:
+  base_model: "gpt2"
+  cpt_checkpoint: "checkpoints/cpt"
+  sft_checkpoint: "checkpoints/sft"
+
+# General Settings
+seed: 42
+
+# Continued Pretraining (CPT)
+cpt:
+  sequence_length: 512
+  learning_rate: 0.00005
+  epochs: 2
+  train_split: 0.90
+  validation_split: 0.10
+
+# Supervised Fine-Tuning (SFT)
+sft:
+  epochs: 2
+  validation_split: 0.10
+  answer_only_loss: true
+
+# Evaluation
+evaluation:
+  test_file: "tests/test_questions.csv"
+  number_of_questions: 30
+  initial_questions: 5
+  temperature: 0
+  max_new_tokens: 100
+  decoding: "greedy"
+
+# Scoring
+scoring:
+  exact_match: true
+  manual_grading: true
+  score_values:
+    correct: 1.0
+    partially_correct: 0.5
+    wrong: 0.0
+
+# Results
+results:
+  output_directory: "results/"
+  scoreboard: "SCOREBOARD.md"
+
