@@ -78,3 +78,15 @@ Detailed predictions, expected answers, scores, and evaluation notes for each mo
 ## Team
 
 DatasetScout AI – Phase 2
+
+## Model Checkpoints
+
+The project uses three GPT-2 Small model versions:
+
+- **Base:** `gpt2` (original pretrained model).
+- **CPT:** `NeuraLabTeam/cpt-model` — [Hugging Face CPT Model](https://huggingface.co/NeuraLabTeam/cpt-model).
+- **SFT:** `NeuraLabTeam/sft-model` — [Hugging Face SFT Model](https://huggingface.co/NeuraLabTeam/sft-model).
+
+Model checkpoints are hosted on Hugging Face rather than committed to GitHub. Access to private repositories requires authorization.
+
+The training scripts and related documentation are available under `training/CPT/` and `training/SFT/`.
