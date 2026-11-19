@@ -13,7 +13,7 @@
 | Model | Fully Correct | Partially Correct | Wrong | Full Accuracy | Mean Rubric Score | Refusal Accuracy | Avg. Latency (s) | Held-out Perplexity |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | GPT-2 Base | 0 | 4 | 26 | 0.00% | 6.67% | 33.33% | 0.8523 | 69.2662 |
-| CPT | 0 | 5 | 25 | 0.00% | 8.33% | 0.00% | 0.2249 | 50.4783 |
+| CPT | 0 | 5 | 25 | 0.00% | 8.33% | 0.00% | 0.2249 | 62.6892 |
 | SFT | 0 | 5 | 25 | 0.00% | 8.33% | 0.00% | 1.0103 | 64.3360 |
 ## Metric Definitions
 
