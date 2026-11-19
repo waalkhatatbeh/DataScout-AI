@@ -1,0 +1,10 @@
+cpt_checkpoint: /kaggle/input/datasets/toqa06ds/datascout-ai-sft-300-training/checkpoint_epoch2/checkpoint_epoch2
+sft_data: /kaggle/input/datasets/toqa06ds/datascout-ai-sft-300-training/DataScout_AI_SFT_300_Training_Package/sft_pairs.jsonl
+sft_output: /kaggle/working/datascout_sft_300_validated
+max_length: 512
+epochs: 3
+batch_size: 4
+grad_accum: 4
+learning_rate: 2e-5
+seed: 42
+validation_fraction: 0.10
