@@ -1,0 +1,18 @@
+{
+  "training_pairs": 300,
+  "held_out_test_cases": 30,
+  "empty_pairs": 0,
+  "duplicate_training_questions_exact": 0,
+  "exact_train_test_question_overlaps": 0,
+  "train_answer_types": {
+    "answer": 270,
+    "refusal": 30
+  },
+  "train_difficulties": {
+    "Easy": 90,
+    "Medium": 90,
+    "Hard": 90,
+    "N/A": 30
+  },
+  "note": "Exact text checks only. Semantic scan and manual review require separate verification. No held-out test cases are used for training."
+}
