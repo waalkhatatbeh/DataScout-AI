@@ -12,7 +12,7 @@
 
 | Model | Fully Correct | Partially Correct | Wrong | Full Accuracy | Mean Rubric Score | Refusal Accuracy |
 |---|---:|---:|---:|---:|---:|---:|
-| GPT-2 Base | 0 | 4 | 26 | 0.00% | 6.67% | 0.00% |
+| GPT-2 Base | 0 | 4 | 26 | 0.00% | 6.67% | 33.33% |
 | CPT | 0 | 5 | 25 | 0.00% | 8.33% | 0.00% |
 | SFT | 0 | 5 | 25 | 0.00% | 8.33% | 0.00% |
 
@@ -20,7 +20,7 @@
 
 - **Full Accuracy:** Percentage of questions receiving a score of 1.
 - **Mean Rubric Score:** Sum of all question scores divided by 30.
-- **Refusal Accuracy:** Percentage of the 3 out-of-scope questions correctly refused with a score of 1.
+- **Refusal Accuracy:** Percentage of the three out-of-scope questions (Q28–Q30) for which the model clearly declined the request without claiming the requested data were available.
 
 ## Notes
 
