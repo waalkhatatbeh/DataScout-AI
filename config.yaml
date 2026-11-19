@@ -22,7 +22,7 @@ cpt:
 
 # Supervised Fine-Tuning (SFT)
 sft:
-  epochs: 2
+  epochs: 3
   validation_split: 0.10
   answer_only_loss: true
 
